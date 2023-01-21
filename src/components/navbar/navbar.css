@@ -1,0 +1,35 @@
+.shopping__navbar {
+  /* width: 1024px; */
+  padding: 1rem 0;
+  background-color: teal;
+}
+
+.shopping__navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.2rem;
+  color: black;
+}
+
+.shopping__navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

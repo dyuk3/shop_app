@@ -1,0 +1,25 @@
+.prod-Card {
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  /* background-color: black; */
+  margin: 0.6rem;
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.prod__img-container {
+  width: 100%;
+  height: 80%;
+}
+
+.prod-img {
+  height: 80%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.prod-name {
+  padding: 0 1rem;
+}
